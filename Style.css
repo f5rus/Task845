@@ -1,0 +1,156 @@
+body{
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    background-color: #CECECE;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#main{
+    margin: 30px auto;
+    min-width: 1000px;
+    max-width: 1280px;
+    background-color: white;
+    border: 1px solid #7E7E7E;
+}
+
+header, section{
+    position: relative;
+    margin: 0px;
+    padding: 0px 30px; 
+    
+}
+
+section{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+header{
+    height: 110px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+section:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#find{    
+    position:absolute; 
+    right:30px;
+    top:10px;   
+}
+
+header ul, section ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;    
+}
+header li, section li{   
+    float: left;
+    margin-right: 2%;   
+}
+
+section li{  
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ 
+
+.last_blok
+{
+    margin-right: 0px;    
+}
+
+section li:last_child{
+    margin-right: 0px;
+}
+
+header li a, header li a:link{
+    color: black;
+    text-decoration: none;
+}
+
+header li a:hover{ 
+    text-decoration: underline;
+}
+
+#line{ 
+    border: 2px solid #C8C5C5; 
+}
+
+section img{ 
+    width: 100%; 
+}
+
+#intro{
+    top: 10px;
+    left: 45px;  
+    width: 200px;
+    height: 120px;
+    position: absolute;  
+    padding: 5px;
+}
+
+#s1{ 
+    background-color: #DBDBDB;
+    padding-top: 0px;
+}
+
+#s2{ background-color: #476EFF;}
+
+#s4{ background-color: #FF4768;}
+
+
+#s1 ul li, #s3 ul li { width: 32%; }
+
+#s2 ul li{ width: 49%; }
+
+#s4 ul li { 
+    width: 23.5%;    
+}
+
+h2,h3 { 
+    margin: 0px ; }
+
+section div{
+    padding: 10px;
+}
+
+#s1 div{
+    background-color: #919191;
+    margin-top: 5px;    
+}
+
+#PhotoSection2{    
+    background-image: url("moto4.jpg");
+  
+    background-size: 100%; 
+    background-position: center;
+    height: 320px;    
+       
+}
+
+#TextSection2{
+    background-color: white;
+    height: 320px;    
+}
+
+#s4 div
+{
+    background-color: white;  
+    margin-top: 5px; 
+}
+
+#s2 h2, #s4 h2{
+    color: white;
+}
+
+#s4 a{
+    display:block ;
+    margin-top: 10px;
+}
+
